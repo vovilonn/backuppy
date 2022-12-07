@@ -1,0 +1,7 @@
+version: "3.6"
+
+services:
+  backuppy:
+    build: .
+    container_name: 'backuppy'
+    restart: 'always'
